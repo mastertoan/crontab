@@ -164,7 +164,7 @@ class CronJob extends Model
             $this->weekDay,
         ];
         $year = $this->year;
-        if (strlen($year) > 0) {
+        if (@strlen($year) > 0) {
             $parts[] = $year;
         }
         $parts[] = $this->command;
