@@ -1,14 +1,14 @@
 {
-    "name": "yii2tech/crontab",
+    "name": "mastertoan/crontab",
     "description": "Crontab support extension for the Yii2 framework",
     "keywords": ["yii2", "crontab", "cronjob", "cron"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yii2tech/crontab/issues",
+        "issues": "https://github.com/mastertoan/crontab/issues",
         "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "https://github.com/yii2tech/crontab/wiki",
-        "source": "https://github.com/yii2tech/crontab"
+        "wiki": "https://github.com/mastertoan/crontab/wiki",
+        "source": "https://github.com/mastertoan/crontab"
     },
     "authors": [
         {
@@ -26,7 +26,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"yii2tech\\crontab\\": "src"}
+        "psr-4": {"mastertoan\\crontab\\": "src"}
     },
     "extra": {
         "branch-alias": {

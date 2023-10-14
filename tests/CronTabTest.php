@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2tech\tests\unit\crontab;
+namespace mastertoan\tests\unit\crontab;
 
 use Yii;
 use yii\helpers\FileHelper;
-use yii2tech\crontab\CronTab;
+use mastertoan\crontab\CronTab;
 
 /**
  * Test case for [[CronTab]].
@@ -36,7 +36,7 @@ class CronTabTest extends TestCase
      */
     protected function getTestFilePath()
     {
-        $filePath = Yii::getAlias('@yii2tech/tests/unit/crontab/runtime') . DIRECTORY_SEPARATOR . getmypid();
+        $filePath = Yii::getAlias('@mastertoan/tests/unit/crontab/runtime') . DIRECTORY_SEPARATOR . getmypid();
         return $filePath;
     }
 
@@ -391,7 +391,7 @@ class CronTabTest extends TestCase
     }
 
     /**
-     * @see https://github.com/yii2tech/crontab/issues/6
+     * @see https://github.com/mastertoan/crontab/issues/6
      *
      * @depends testSaveToFile
      */

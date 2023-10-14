@@ -1,11 +1,11 @@
 <?php
 /**
- * @link https://github.com/yii2tech
- * @copyright Copyright (c) 2015 Yii2tech
+ * @link https://github.com/mastertoan
+ * @copyright Copyright (c) 2015 mastertoan
  * @license [New BSD License](http://www.opensource.org/licenses/bsd-license.php)
  */
 
-namespace yii2tech\crontab;
+namespace mastertoan\crontab;
 
 use Yii;
 use yii\base\Component;
@@ -23,7 +23,7 @@ use yii\base\InvalidArgumentException;
  * Example usage:
  *
  * ```php
- * use yii2tech\crontab\CronTab;
+ * use mastertoan\crontab\CronTab;
  *
  * $cronTab = new CronTab();
  * $cronTab->setJobs([
@@ -58,7 +58,7 @@ class CronTab extends Component
      * @var array default configuration for the cron job objects.
      */
     public $defaultJobConfig = [
-        'class' => 'yii2tech\crontab\CronJob'
+        'class' => 'mastertoan\crontab\CronJob'
     ];
     /**
      * @var string|callable filter, which indicates whether existing cron job should be removed on cron tab merging.

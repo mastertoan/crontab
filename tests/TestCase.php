@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2tech\tests\unit\crontab;
+namespace mastertoan\tests\unit\crontab;
 
 use yii\helpers\ArrayHelper;
 use Yii;

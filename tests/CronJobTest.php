@@ -1,8 +1,8 @@
 <?php
 
-namespace yii2tech\tests\unit\crontab;
+namespace mastertoan\tests\unit\crontab;
 
-use yii2tech\crontab\CronJob;
+use mastertoan\crontab\CronJob;
 
 /**
  * Test case for [[CronJob]].

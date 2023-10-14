@@ -1,11 +1,11 @@
 <?php
 /**
- * @link https://github.com/yii2tech
- * @copyright Copyright (c) 2015 Yii2tech
+ * @link https://github.com/mastertoan
+ * @copyright Copyright (c) 2015 mastertoan
  * @license [New BSD License](http://www.opensource.org/licenses/bsd-license.php)
  */
 
-namespace yii2tech\crontab;
+namespace mastertoan\crontab;
 
 use yii\base\InvalidConfigException;
 use yii\base\InvalidArgumentException;
@@ -19,7 +19,7 @@ use yii\base\Model;
  * Cron job may be setup via attributes:
  *
  * ```php
- * use yii2tech\crontab\CronJob;
+ * use mastertoan\crontab\CronJob;
  *
  * $cronJob = new CronJob();
  * $cronJob->min = '0';
@@ -31,7 +31,7 @@ use yii\base\Model;
  * It can also parse given crontab line:
  *
  * ```php
- * use yii2tech\crontab\CronJob;
+ * use mastertoan\crontab\CronJob;
  *
  * $cronJob = new CronJob();
  * $cronTabLine = '0 0 * * * my-shell-command';
